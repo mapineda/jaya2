@@ -6,11 +6,11 @@
 
 | Endpoint | Method           | Description  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | GET | Retrieve all todos |
-| col 2 is      | GET     |  Retrieve a todo by id |
-| zebra stripes | POST      |    Create a new todo |
-| zebra stripes | PUT      |   Update a todo by its id |
-| zebra stripes | DELETE     |    Delete a todo by its id |
+| /api/todos     | GET | Retrieve all todos |
+| /api/todos:id    | GET     |  Retrieve a todo by id |
+| /api/todos | POST      |    Create a new todo |
+| /api/todos:id | PUT      |   Update a todo by its id |
+| /api/todos/:id | DELETE     |    Delete a todo by its id |
 
 ##Contact:
 * [Twitter](https://twitter.com/mapineda)
